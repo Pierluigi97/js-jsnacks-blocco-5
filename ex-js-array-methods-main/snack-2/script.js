@@ -6,3 +6,13 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// for (let i = 0; i < people.length; i++) {
+  
+//   console.log(people[i].name);
+// }
+
+
+
+const names = people.map(persona => persona.name).join(', ');
+console.log(names);
